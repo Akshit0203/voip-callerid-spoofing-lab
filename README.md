@@ -165,7 +165,7 @@ Caller ID spoofing underpins a huge share of modern phone fraud — vishing, "ne
   <sub><b>Admin dashboard</b> </sub>
 </p>
 
-### Email Notifications (optional)
+### Email Notifications
 
 <p align="center">
   <a href="assets/screenshots/hostinger-imap-smtp-setup.png"><img src="assets/screenshots/hostinger-imap-smtp-setup.png" width="100%"></a><br>
