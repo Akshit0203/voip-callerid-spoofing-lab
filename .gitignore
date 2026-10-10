@@ -1,0 +1,50 @@
+# ─── Secrets & credentials (NEVER commit) ───────────────────────────
+*.pem
+*.key
+*.crt
+*.p12
+password.txt
+passwords.txt
+*password*
+*secret*
+*credential*
+.env
+.env.*
+config.local*
+
+# ─── Asterisk / MagnusBilling runtime artefacts ─────────────────────
+*.conf.local
+manager.conf
+sip.conf
+pjsip.conf
+extensions.conf
+cdr.conf
+res_odbc.conf
+/var/log/asterisk/
+/var/lib/asterisk/
+MagnusBilling-current.tar.gz
+install.sh
+installMysql.log
+
+# ─── Call data (PII — never commit real CDR) ────────────────────────
+*cdr*.csv
+*cdr*.xlsx
+call-records*
+*.pcap
+*.pcapng
+
+# ─── OS / editor noise ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ─── Backups / archives ─────────────────────────────────────────────
+*.bak
+*.old
+*.tmp
+*.tar.gz
+*.zip
