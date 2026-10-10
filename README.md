@@ -75,7 +75,7 @@ The central lesson: **in legacy SIP the Caller ID is just a text field set by th
 
 ## 🚀 Quick Start (Documentation Path)
 
-New to the project? Read the docs in order:
+Read the docs in order:
 
 1. **[Architecture](docs/01-architecture.md)** — how the pieces fit and how a call flows end to end.
 2. **[Installation](docs/02-installation.md)** — build Asterisk from source and install MagnusBilling on Debian 11.
@@ -110,10 +110,6 @@ Caller ID spoofing underpins a huge share of modern phone fraud — vishing, "ne
 
 ## 🖼️ Gallery
 
-> ⚠️ Some screenshots were captured from a live build. **Redact passwords, server IPs, real phone
-> numbers, and subscriber data before making the repo public** — see
-> [02-installation §9](docs/02-installation.md).
-
 ### Build & Installation
 
 <table>
@@ -126,8 +122,8 @@ Caller ID spoofing underpins a huge share of modern phone fraud — vishing, "ne
     <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-update-download.png"><img src="assets/screenshots/magnusbilling-update-download.png" width="100%"></a><br><sub><b>MagnusBilling download</b></sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/installation-success-result.png"><img src="assets/screenshots/installation-success-result.png" width="100%"></a><br><sub><b>Installation result</b> ⚠️ redact password</sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/mbilling-folder-contents.png"><img src="assets/screenshots/mbilling-folder-contents.png" width="100%"></a><br><sub><b>Application folder</b> ⚠️ redact IP</sub></td>
+    <td align="center" width="50%"><a href="assets/screenshots/installation-success-result.png"><img src="assets/screenshots/installation-success-result.png" width="100%"></a><br><sub><b>Installation result</b></sub></td>
+    <td align="center" width="50%"><a href="assets/screenshots/mbilling-folder-contents.png"><img src="assets/screenshots/mbilling-folder-contents.png" width="100%"></a><br><sub><b>Application folder</b></sub></td>
   </tr>
 </table>
 
@@ -143,12 +139,12 @@ Caller ID spoofing underpins a huge share of modern phone fraud — vishing, "ne
     <td align="center" width="50%"><a href="assets/screenshots/dial-prefix-rate-routing.png"><img src="assets/screenshots/dial-prefix-rate-routing.png" width="100%"></a><br><sub><b>Prefix → destination routing</b></sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/call-detail-records-cdr.png"><img src="assets/screenshots/call-detail-records-cdr.png" width="100%"></a><br><sub><b>Call Detail Records</b> ⚠️ redact numbers</sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-admin-dashboard.png"><img src="assets/screenshots/magnusbilling-admin-dashboard.png" width="100%"></a><br><sub><b>Admin dashboard</b> ⚠️ redact figures</sub></td>
+    <td align="center" width="50%"><a href="assets/screenshots/call-detail-records-cdr.png"><img src="assets/screenshots/call-detail-records-cdr.png" width="100%"></a><br><sub><b>Call Detail Records</b></sub></td>
+    <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-admin-dashboard.png"><img src="assets/screenshots/magnusbilling-admin-dashboard.png" width="100%"></a><br><sub><b>Admin dashboard</b></sub></td>
   </tr>
 </table>
 
-### Email Notifications (optional)
+### Email Notifications
 
 <table>
   <tr>
