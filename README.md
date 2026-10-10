@@ -110,48 +110,72 @@ Caller ID spoofing underpins a huge share of modern phone fraud — vishing, "ne
 
 ## 🖼️ Gallery
 
-### Build & Installation
+### Setup & Installation
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/debian-perl-dependencies.png"><img src="assets/screenshots/debian-perl-dependencies.png" width="100%"></a><br><sub><b>Perl / ODBC dependencies</b></sub></td>
     <td align="center" width="50%"><a href="assets/screenshots/asterisk-source-compilation.png"><img src="assets/screenshots/asterisk-source-compilation.png" width="100%"></a><br><sub><b>Asterisk compiled from source</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/libvpb1-country-code-config.png"><img src="assets/screenshots/libvpb1-country-code-config.png" width="100%"></a><br><sub><b>libvpb1 ITU-T country code</b></sub></td>
     <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-update-download.png"><img src="assets/screenshots/magnusbilling-update-download.png" width="100%"></a><br><sub><b>MagnusBilling download</b></sub></td>
   </tr>
   <tr>
     <td align="center" width="50%"><a href="assets/screenshots/installation-success-result.png"><img src="assets/screenshots/installation-success-result.png" width="100%"></a><br><sub><b>Installation result</b></sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/mbilling-folder-contents.png"><img src="assets/screenshots/mbilling-folder-contents.png" width="100%"></a><br><sub><b>Application folder</b></sub></td>
+    <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-language-selection.png"><img src="assets/screenshots/magnusbilling-language-selection.png" width="100%"></a><br><sub><b>Language selection</b></sub></td>
   </tr>
 </table>
+
+<p align="center">
+  <a href="assets/screenshots/debian-perl-dependencies.png"><img src="assets/screenshots/debian-perl-dependencies.png" width="100%"></a><br>
+  <sub><b>Perl / ODBC dependencies installed on Debian 11</b></sub>
+</p>
+
+<p align="center">
+  <a href="assets/screenshots/libvpb1-country-code-config.png"><img src="assets/screenshots/libvpb1-country-code-config.png" width="100%"></a><br>
+  <sub><b>libvpb1 — ITU-T regional telephone code</b></sub>
+</p>
+
+<p align="center">
+  <a href="assets/screenshots/mbilling-folder-contents.png"><img src="assets/screenshots/mbilling-folder-contents.png" width="100%"></a><br>
+  <sub><b>MagnusBilling application folder</b> </sub>
+</p>
 
 ### Configuration & Operation
 
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-language-selection.png"><img src="assets/screenshots/magnusbilling-language-selection.png" width="100%"></a><br><sub><b>Language selection</b></sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/client-user-management.png"><img src="assets/screenshots/client-user-management.png" width="100%"></a><br><sub><b>Client / user management</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/sip-user-codec-config.png"><img src="assets/screenshots/sip-user-codec-config.png" width="100%"></a><br><sub><b>SIP user, CallerID & codecs</b></sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/dial-prefix-rate-routing.png"><img src="assets/screenshots/dial-prefix-rate-routing.png" width="100%"></a><br><sub><b>Prefix → destination routing</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/call-detail-records-cdr.png"><img src="assets/screenshots/call-detail-records-cdr.png" width="100%"></a><br><sub><b>Call Detail Records</b></sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/magnusbilling-admin-dashboard.png"><img src="assets/screenshots/magnusbilling-admin-dashboard.png" width="100%"></a><br><sub><b>Admin dashboard</b></sub></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/screenshots/client-user-management.png"><img src="assets/screenshots/client-user-management.png" width="100%"></a><br>
+  <sub><b>Client / user management</b></sub>
+</p>
 
-### Email Notifications
+<p align="center">
+  <a href="assets/screenshots/sip-user-codec-config.png"><img src="assets/screenshots/sip-user-codec-config.png" width="100%"></a><br>
+  <sub><b>SIP user — CallerID field & codec negotiation</b></sub>
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="assets/screenshots/hostinger-imap-smtp-setup.png"><img src="assets/screenshots/hostinger-imap-smtp-setup.png" width="100%"></a><br><sub><b>IMAP / SMTP settings</b></sub></td>
-    <td align="center" width="50%"><a href="assets/screenshots/hostinger-pop3-setup.png"><img src="assets/screenshots/hostinger-pop3-setup.png" width="100%"></a><br><sub><b>POP3 settings</b></sub></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="assets/screenshots/dial-prefix-rate-routing.png"><img src="assets/screenshots/dial-prefix-rate-routing.png" width="100%"></a><br>
+  <sub><b>Dial prefix → destination routing</b></sub>
+</p>
+
+<p align="center">
+  <a href="assets/screenshots/call-detail-records-cdr.png"><img src="assets/screenshots/call-detail-records-cdr.png" width="100%"></a><br>
+  <sub><b>Call Detail Records (CDR)</b> </sub>
+</p>
+
+<p align="center">
+  <a href="assets/screenshots/magnusbilling-admin-dashboard.png"><img src="assets/screenshots/magnusbilling-admin-dashboard.png" width="100%"></a><br>
+  <sub><b>Admin dashboard</b> </sub>
+</p>
+
+### Email Notifications (optional)
+
+<p align="center">
+  <a href="assets/screenshots/hostinger-imap-smtp-setup.png"><img src="assets/screenshots/hostinger-imap-smtp-setup.png" width="100%"></a><br>
+  <sub><b>IMAP / SMTP settings</b></sub>
+</p>
+
+<p align="center">
+  <a href="assets/screenshots/hostinger-pop3-setup.png"><img src="assets/screenshots/hostinger-pop3-setup.png" width="100%"></a><br>
+  <sub><b>POP3 settings</b></sub>
+</p>
 
 ---
 
